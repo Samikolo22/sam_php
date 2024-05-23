@@ -1,0 +1,128 @@
+body,
+h1,
+h2,
+h3,
+p,
+figure,
+figcaption,
+ul,
+li,
+form,
+fieldset,
+legend,
+input,
+select,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+figure {
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styles for Homepage */
+.homepage .hero-image {
+    width: 100%;
+}
+
+.homepage .hero-content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for About Me */
+.about-me img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Styles for Contact Us */
+.contact-us .reasoning {
+    margin-top: 20px;
+}
+
+/* Styles for Shopping */
+.shopping figure {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Styles for Recommendations */
+.recommendations p {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styles for Media */
+.media video {
+    width: 100%;
+}
